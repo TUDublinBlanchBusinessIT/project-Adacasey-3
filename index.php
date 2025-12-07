@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="form-box active" id ="login-form">
-            <form action="">
+            <form action="login_register.php" method="post">
                 <h2> Caseysminks Login</h2>
                 <input type="email" name="email" placeholder="Enter your email" required>
                 <input type="password" name="password" placeholder="Enter your Password" required>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="form-box" id ="register-form">
-            <form action="">
+            <form action="" method="post"></form>
                 <h2> Register</h2>
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email" required>
