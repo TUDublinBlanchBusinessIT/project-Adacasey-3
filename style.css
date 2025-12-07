@@ -19,12 +19,17 @@ body {
     margin: 0 15px;
 }
 
-.form-box{
+.form-box {
     width: 100%;
-    max-width: 500px;
-    padding: 20px;
+    max-width: 450px;
+    padding: 30px;
     background: hotpink;
     box-shadow: 0 0 50px white;
+    display: none;
+}
+
+.form-box.active {
+    display: block;
 }
 
 h2{
