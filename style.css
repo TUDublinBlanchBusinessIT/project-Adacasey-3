@@ -23,7 +23,7 @@ body {
     width: 100%;
     max-width: 450px;
     padding: 30px;
-    background: hotpink;
+    background: white;
     box-shadow: 0 0 50px white;
     display: none;
 }
@@ -34,6 +34,16 @@ body {
 
 h2{
     font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    padding: 12px;
+    background: lightpink;
+    border-radius: 6px;
+    font-size: 16px;
+    color: red;
     text-align: center;
     margin-bottom: 20px;
 }
