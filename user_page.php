@@ -20,7 +20,7 @@ if (!isset($_SESSION['email'])) {
     
 <div class ="box">
     <h1> Welcome to caseysminks user page <?= $_SESSION['name']; ?> </h1>
-    <button>Logout</button>
+    <button onclick ="window.location.href='logout.php'">Logout</button>
 
 </div>
 </body>
